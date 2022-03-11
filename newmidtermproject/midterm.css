@@ -1,0 +1,154 @@
+
+@font-face {
+  font-family: 'EB Garamond', serif;:
+  src: url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+}
+
+#fonmoon1  {
+float: right;
+ margin: 40 40 40 40px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #0c0c0c;
+}
+
+.flex-container > div {
+  background-color:  #0c0c0c;
+  margin: 40px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  font-size: 30px;
+  align-items: center;
+}
+.flex-container2 {
+  display: flex;
+  background-color: #0c0c0c;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.flex-container2 > div {
+  background-color: #0c0c0c;
+  margin: 20px;
+  padding: 8px;
+  font-size: 30px;
+  align-items: center;
+  flex-direction: row;
+}
+
+.buttons { background-color: #f2eed8;
+           color: #0b4e0c; align=right;
+           border-radius: 16px; }
+
+nav { background-color: #0c0c0c;
+      color: #f3f5d4;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+      padding: 1em;
+      background-image: url(th.png);
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: 12%;
+}
+nav ul { list-style-type: none;
+         margin: 0;
+         text-align: right;
+         padding-left: 0;
+         font-size: 1em;
+         color: #f3f5d4;
+}
+header a { text-decoration: none;
+       font-family: 'EB Garamond', serif;
+       color: #f3f5d4;
+       background-color: #0c0c0c;
+       letter-spacing: 1em;
+}
+
+.style {  background: #0c0c0c;
+          font-size: 40px;
+          padding: 20px;
+          border: 1px
+          solid #d8efd1;
+          border-radius: 50px;
+          color: #fdd3e1;
+          text-align: center;
+          margin-left: 300px;
+          margin-right: 300px;
+          margin-bottom: 90px;
+          margin-top: 90px;
+}
+
+body {background-color: #0c0c0c;
+}
+
+h1 {font-size: 50px;
+    padding-left: 100px;
+    letter-spacing: 1em;
+}
+
+h2 {color: #fdd3e1;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing:.30em;
+}
+
+h3 {font-size: 17px;
+    text-align: center;
+    font-weight: lighter;
+    color: #f3f5d4;
+}
+
+h4 { font-size: 15px;
+     color: #f3f5d4;
+}
+
+.center {
+      display: block;
+      margin-right: auto;
+      width: 55%;
+}
+
+.border { border-style: dotted;
+          border-width: .25px;
+          border-color: #d8efd1;
+}
+
+.outline { border-style: solid;
+           border-width: thin;
+           border-color: #d8efd1;
+           margin-left: 90px;
+           margin-right: 90px;
+           margin-top: 50px;
+           margin-bottom: 50px;
+           padding-top: 40px;
+           padding-bottom: 40px;
+           border-radius: 50px;
+}
+
+.title { letter-spacing: 2em;}
+
+.italic { font-style: italic;
+          font-size: 16px;
+}
+
+
+footer { font-size: 75%;
+         background-image: url(th.png);
+         background-position: left;
+         background-repeat: no-repeat;
+         background-size: 10%;
+    `    height: 40px;
+         padding-top: 15px;
+         padding-bottom: 30px;
+         font-family: Times New Roman;
+         color: #f3f5d4;
+         font-style: italic;
+         text-align: center;
+         padding: 4em;
+         background-color: #0c0c0c;
+         margin-top: auto;
+}
